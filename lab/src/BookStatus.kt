@@ -3,6 +3,5 @@ enum class BookStatus (val i: String) {
     AVAILABLE("В библеотеке, доступна"),
     BORROWED("Выдана читателю"),
     RESERVED("Зарезервированна"),
-    ARCHIVED("В архиве"),
-    EMPTY("...")
+    ARCHIVED("В архиве");
 }
