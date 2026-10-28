@@ -44,6 +44,11 @@ class Player (val name: String ) {
             println()
         }
     }
+    fun markShot(row: Int, col: Int, hit: Boolean) {
+        if (row in 0..9 && col in 0..9) {
+            _field[row][col] = if (hit) 'X' else 'O'
+        }
+    }
 
     // попадания
     fun takeDamage(): Boolean{

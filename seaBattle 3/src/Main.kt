@@ -49,4 +49,7 @@ fun main(){
 
     player.reset()
     player.status()
+    player.markShot(3, 3, true)
+    player.markShot(4, 4, false)
+    printBothFields(player, enemy)
 }
