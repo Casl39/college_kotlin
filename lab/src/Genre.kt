@@ -4,6 +4,5 @@ enum class Genre (val g: String) {
     FANTASY("Фантастика"),
     DETECTIVE("Детектив"),
     BIOGRAPHY("Биография"),
-    CHILDREN("Детская литература"),
-    EMPTY("...")
+    CHILDREN("Детская литература");
 }
